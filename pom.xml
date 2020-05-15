@@ -6,13 +6,13 @@
     <parent>
         <groupId>dev.xethh.libs</groupId>
         <artifactId>toolkits</artifactId>
-        <version>1.0.1</version>
+        <version>1.0.2</version>
     </parent>
 
     <modelVersion>4.0.0</modelVersion>
     <groupId>dev.xethh.libs.toolkits</groupId>
     <artifactId>base</artifactId>
-    <version>1.0.1</version>
+    <version>1.0.2</version>
 
     <packaging>pom</packaging>
     <name>toolkits-base</name>
