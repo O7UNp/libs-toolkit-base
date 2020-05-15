@@ -12,7 +12,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>dev.xethh.libs.toolkits</groupId>
     <artifactId>base</artifactId>
-    <version>1.0.0</version>
+    <version>1.0.1</version>
 
     <packaging>pom</packaging>
     <name>toolkits-base</name>
@@ -40,5 +40,17 @@
         </repository>
     </distributionManagement>
 
+    <build>
+        <resources>
+            <resource>
+                <directory>src/main/resources</directory>
+            </resource>
+        </resources>
+        <testResources>
+            <testResource>
+                <directory>src/test/resources</directory>
+            </testResource>
+        </testResources>
+    </build>
 
 </project>
